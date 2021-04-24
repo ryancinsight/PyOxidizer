@@ -89,6 +89,7 @@ def make_macos_app_bundle():
     )
 
     m = FileManifest()
+
     m.add_path(
         path = "target/release/pyoxidizer",
         strip_prefix = "target/release/",
